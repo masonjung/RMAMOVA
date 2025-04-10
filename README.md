@@ -1,4 +1,10 @@
-This repository includes codes for the sample dataset generator and analytic model for repeated measure ANOVA.
+This repository includes code for the sample dataset generator and the analytic model for repeated measure ANOVA. <br>
+
+<figure>
+  <img src="RMANOVA.png" alt="Box plot comparing rational and emotional treatments across three time steps">
+  <figcaption>Figure 1: Repeated measure analysis of variance (ANOVA) showing the distribution of scores across three time steps for participants receiving rational (green) vs. emotional (orange) advertisements. While T1 and T2 show no significant difference (n.s.), T3 exhibits a highly significant difference (***), indicating a strong long-term effect in favor of the rational treatment over the emotional. The datapoints are based on the 7-point Likert scale.</figcaption>
+</figure><br>
+
 
 [1] Dataset Generator
 
@@ -12,29 +18,31 @@ To achieve a realistic simulation, the code generates data for 5000 participants
 describes the general information of the demographics, including age, gender, and income. They are fairly distributed.
 
 
-Age Group Distribution:
-            Count  Percentage (%)
-Age_Group                       
-18-24        832           16.64
-25-34        804           16.08
-35-44        784           15.68
-45-54        836           16.72
-55-64        870           17.40
-65+          874           17.48
+#### Age Group Distribution:
 
-Gender Distribution:
-         Count  Percentage (%)
-Gender                       
-Female   2458           49.16
-Male     2542           50.84
+| Age Group | Count | Percentage (%) |
+|-----------|-------|----------------|
+| 18-24     | 832   | 16.64          |
+| 25-34     | 804   | 16.08          |
+| 35-44     | 784   | 15.68          |
+| 45-54     | 836   | 16.72          |
+| 55-64     | 870   | 17.40          |
+| 65+       | 874   | 17.48          |
 
-Income Distribution:
-         Count  Percentage (%)
-Income                       
-High     1609           32.18
-Low      1753           35.06
-Medium   1638           32.76
+#### Gender Distribution:
 
+| Gender    | Count | Percentage (%) |
+|-----------|-------|----------------|
+| Female    | 2458  | 49.16          |
+| Male      | 2542  | 50.84          |
+
+#### Income Distribution:
+
+| Income    | Count | Percentage (%) |
+|-----------|-------|----------------|
+| High      | 1609  | 32.18          |
+| Low       | 1753  | 35.06          |
+| Medium    | 1638  | 32.76          |
 
 
 [3] Repeated Measure ANOVA
