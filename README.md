@@ -48,5 +48,11 @@ The Fig 1. shows the overall change in willingness to take the vaccine by the tw
 <br>
 The repeated measure ANOVA of this research is designed to meet statistical assumptions that provide the validity of the experiment. This method inherently assumes that the data follow the properties of normality and sphericity: (1) Normal distribution: Since the dataset uses the "np.random.normal" function, the assumption of the Gaussian distribution of ANOVA is satisfied. (2) Sphericity: the same variance across timesteps is observed, despite the standard deviation of the time step 1 is greater. Additionally, the statistical significance between two groups at each time step is measured using the paired t-test.
 
+<br>
+[4] How to run this file
+Save your code as a Python script. You can run the script directly from an IDE like VSCode that supports interactive cell execution. If you are running this file one-by-one, try to run the dataset generation first and run the main analysis. Please ensure that the generated datasets are imported directly to the main session.
+
+<br>
+Before running the file, make sure to install all required dependencies in requirements.
 
 
