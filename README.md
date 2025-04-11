@@ -43,16 +43,19 @@ This section describes the general information of the demographics, including ag
 
 <br>
 [3] Repeated Measure ANOVA
-The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment, rational and emotional, across three time steps. The repeated measure ANOVA component is geared towards uncovering treatment effects over time. This method inherently assumes that the data follow the properties of normality and sphericity:
+The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Scores from the three time points are compared across different treatment groups to assess whether there are statistically significant changes attributable to the intervention over the long-term period.
+
+
+
+
+The repeated measure ANOVA of this research is designed to meet statistical assumptions that provide the validity of the experiment. This method inherently assumes that the data follow the properties of normality and sphericity:
 <br>
 1. Normal distribution: Since the dataset uses the "np.random.normal" function, the assumption of the Gaussian distribution of ANOVA is satisfied.
 <br>
 2. Sphericity: the same variance across timesteps is observed despite the standard deviation of the time step 1 is greater.
-<br>
-The statistical significance between two groups at each time step is measured using the paired t-test.
+<be>
+In the experiment, the statistical significance between two groups at each time step is measured using the paired t-test.
 
-
-In this analysis, scores from the three time points are compared across different treatment groups to assess whether there are statistically significant changes attributable to the intervention over the long-term period. The code not only conducts the necessary statistical tests but also visualizes the results by plotting the data and annotating significance levels with clear markers. This dual approach of numerical and visual analysis ensures that any observed effects are both statistically sound and intuitively understandable, thereby providing comprehensive insights into the dynamics of the intervention.
 
 
 Interpretation - 
