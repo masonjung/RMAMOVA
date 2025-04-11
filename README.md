@@ -43,7 +43,15 @@ This section describes the general information of the demographics, including ag
 
 <br>
 [3] Repeated Measure ANOVA
-The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Scores from the three time points are compared across different treatment groups to assess whether there are statistically significant changes attributable to the intervention over the long-term period.
+The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Two groups before the treatment did not show any meaningful difference. After the treatment, the average score increased meaningfully, and the majority of people are willing to take the vaccine, while the people who were exposed to the emotional advertisement are more likely to the negative replies. This indicates that the advertisement increases the willingness to take the vaccine, and both group shows a similar enough increase. 
+
+This can be a temporary thing
+
+experiment is conducted after a week - to see the difference
+
+rational showed higher willingness <- implies that more long-term effect
+
+It is worthy to suggest rational appeal.
 
 
 
@@ -52,10 +60,7 @@ The repeated measure ANOVA of this research is designed to meet statistical assu
 <br>
 1. Normal distribution: Since the dataset uses the "np.random.normal" function, the assumption of the Gaussian distribution of ANOVA is satisfied.
 <br>
+
 2. Sphericity: the same variance across timesteps is observed despite the standard deviation of the time step 1 is greater.
 <be>
-In the experiment, the statistical significance between two groups at each time step is measured using the paired t-test.
-
-
-
-Interpretation - 
+Additionally, the statistical significance between two groups at each time step is measured using the paired t-test.
