@@ -43,18 +43,7 @@ This section describes the general information of the demographics, including ag
 
 <br>
 [3] Repeated Measure ANOVA
-The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Two groups before the treatment did not show any meaningful difference. After the treatment, the average score increased meaningfully, and the majority of people are willing to take the vaccine, while the people who were exposed to the emotional advertisement are more likely to the negative replies. This indicates that the advertisement increases the willingness to take the vaccine, and both group shows a similar enough increase. 
-
-This can be a temporary thing
-
-experiment is conducted after a week - to see the difference
-
-rational showed higher willingness <- implies that more long-term effect
-
-It is worthy to suggest rational appeal.
-
-
-
+The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Two groups before the treatment did not show any meaningful difference. After the treatment, the average score increased meaningfully, and the majority of people are willing to take the vaccine, while the people who were exposed to the emotional advertisement are more likely to the negative replies. This indicates that the advertisement increases the willingness to take the vaccine, and both group shows a similar enough increase. While the initial increase in vaccine willingness may be temporary, a follow-up experiment conducted one week later revealed that those exposed to rational appeals maintained a higher level of willingness, suggesting a more durable long-term effect and supporting the prioritization of rational messaging in public health campaigns.
 
 The repeated measure ANOVA of this research is designed to meet statistical assumptions that provide the validity of the experiment. This method inherently assumes that the data follow the properties of normality and sphericity:
 <br>
