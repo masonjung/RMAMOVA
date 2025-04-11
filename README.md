@@ -44,12 +44,9 @@ This section describes the general information of the demographics, including ag
 <br>
 [3] Repeated Measure ANOVA
 The Fig 1. shows the overall change in willingness to take the vaccine by the two types of treatment: (1) rational and (2) emotional, across three time steps. Two groups before the treatment did not show any meaningful difference. After the treatment, the average score increased meaningfully, and the majority of people are willing to take the vaccine, while the people who were exposed to the emotional advertisement are more likely to the negative replies. This indicates that the advertisement increases the willingness to take the vaccine, and both group shows a similar enough increase. While the initial increase in vaccine willingness may be temporary, a follow-up experiment conducted one week later revealed that those exposed to rational appeals maintained a higher level of willingness, suggesting a more durable long-term effect and supporting the prioritization of rational messaging in public health campaigns.
-The repeated measure ANOVA of this research is designed to meet statistical assumptions that provide the validity of the experiment. This method inherently assumes that the data follow the properties of normality and sphericity:
 
 <br>
-- Normal distribution: Since the dataset uses the "np.random.normal" function, the assumption of the Gaussian distribution of ANOVA is satisfied.
-- Sphericity: the same variance across timesteps is observed, despite the standard deviation of the time step 1 is greater.
-- Additionally, the statistical significance between two groups at each time step is measured using the paired t-test.
+The repeated measure ANOVA of this research is designed to meet statistical assumptions that provide the validity of the experiment. This method inherently assumes that the data follow the properties of normality and sphericity: (1) Normal distribution: Since the dataset uses the "np.random.normal" function, the assumption of the Gaussian distribution of ANOVA is satisfied. (2) Sphericity: the same variance across timesteps is observed, despite the standard deviation of the time step 1 is greater. Additionally, the statistical significance between two groups at each time step is measured using the paired t-test.
 
 
 
